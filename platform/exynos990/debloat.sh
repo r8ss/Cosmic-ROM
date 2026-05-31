@@ -24,9 +24,11 @@
 SYSTEM_DEBLOAT+="
 system/etc/default-permissions/default-permissions-com.samsung.android.globalpostprocmgr.xml
 system/etc/default-permissions/default-permissions-com.samsung.petservice.xml
+system/etc/default-permissions/default-permissions-com.samsung.videoscan.xml
 system/etc/permissions/cameraservice.xml
 system/etc/permissions/privapp-permissions-com.samsung.android.globalpostprocmgr.xml
 system/etc/permissions/privapp-permissions-com.samsung.petservice.xml
+system/etc/permissions/privapp-permissions-com.samsung.videoscan.xml
 system/etc/permissions/sec_camerax_impl.xml
 system/etc/permissions/sec_camerax_service.xml
 system/framework/sec_camerax_impl.jar
@@ -35,13 +37,16 @@ system/priv-app/GlobalPostProcMgr
 system/priv-app/PetService
 system/priv-app/SCameraSDKService
 system/priv-app/sec_camerax_service
+system/priv-app/VideoScan
+system/priv-app/LedBackCoverAppHubble
+system/priv-app/LedCoverService
 "
 
 # Wi-Fi Hotspot Overlays
 PRODUCT_DEBLOAT+="
 overlay/SoftapOverlay6GHz
-
-
+overlay/SoftapOverlayDualAp
+overlay/SoftapOverlayOWE
 "
 
 # StorageShare (kSMBd)
