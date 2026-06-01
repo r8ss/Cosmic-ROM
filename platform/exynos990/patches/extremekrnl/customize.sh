@@ -1,5 +1,5 @@
 # [
-EXTREMEKRNL_REPO="https://github.com/redmax19/android_kernel_samsung_exynos990"
+EXTREMEKRNL_REPO="https://github.com/Android-Artisan/android_kernel_samsung_exynos990"
 
 BUILD_KERNEL()
 {
